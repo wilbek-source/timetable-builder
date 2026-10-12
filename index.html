@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>School Timetable Builder</title>
+<meta name="description" content="Create a complete weekly school timetable by chatting with Claude or ChatGPT.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main>
+<nav><a href="index.html">How it works</a><a href="privacy.html">Privacy</a><a href="terms.html">Terms</a></nav>
+
+<h1>School Timetable Builder</h1>
+<p class="meta">Create a complete weekly timetable for a primary or lower-secondary
+school by chatting with your AI assistant. Free trial.</p>
+
+<h2>What it does</h2>
+<p>The assistant interviews you about your school: classes, subjects, lessons per
+week, teachers, rooms and the school day. It checks the data with our service, and
+then our engine calculates a full weekly timetable for every class and every
+teacher. You get the result as files in the chat (e.g. a spreadsheet), plus a
+"School data" file so you can run it again later.</p>
+<p>Calculating a timetable usually takes 5–8 minutes. Checking the data takes a few
+seconds.</p>
+
+<h2>Real names are fine – the assistant anonymises for you</h2>
+<p>Talk to the assistant as you normally would, with your teachers' real names.
+You do not need to prepare or anonymise anything yourself.</p>
+<ul>
+<li><strong>Before anything is sent</strong>, the assistant replaces every teacher
+name with a code (T01, T02, …) and shows you the code list. The list stays in your
+chat.</li>
+<li><strong>You stay in control:</strong> you can ask the assistant at any time to
+show you exactly what it is about to send, before it sends it.</li>
+<li><strong>When the timetable comes back</strong>, the assistant puts the real
+names back in, so your files show the names you know.</li>
+</ul>
+<div class="box">
+<strong>What this means for GDPR:</strong> our service never receives the names of
+teachers, pupils or your school. It only sees codes, classes, subjects and lesson
+times, and it deletes them within 24 hours. We cannot tell who a code belongs to.
+Only your school can, using the list in your own chat. This is data minimisation
+and pseudonymisation, two of the safeguards GDPR asks for: the names never leave
+your conversation. If your school has its own rules for new digital tools, follow
+them as usual. Read the full <a href="privacy.html">Privacy Policy</a>.
+</div>
+<p>Two things the assistant never sends, and you should not ask it to: information
+about individual pupils, and health or other personal reasons (a blocked time is
+sent as e.g. "teaches at another school" or "fixed agreement").</p>
+
+<h2>How to connect</h2>
+<p><strong>Claude:</strong> Settings → Connectors → Add custom connector, and paste
+this address:</p>
+<blockquote><code>https://cdfobkzdbemlevbmjzer.supabase.co/functions/v1/mcp</code></blockquote>
+<p><strong>ChatGPT:</strong> add the same address as a connector/app (developer
+mode), or find "School Timetable Builder" in the app directory once it is
+listed.</p>
+<p>No account or login is needed.</p>
+
+<h2>Examples</h2>
+<p>Start the conversation with something like:</p>
+<blockquote>"Help me make next year's timetable for our school. We have grades 0–9
+with two classes per grade."</blockquote>
+<blockquote>"Here is our subject plan and our list of teachers with their subjects
+[paste]. Can you check whether we have enough teachers before you make the
+timetable?"</blockquote>
+<blockquote>"Make a timetable for our small school: grades 1–6, one class per
+grade, 6 lessons a day. Mrs Hansen teaches at another school every Friday."</blockquote>
+<blockquote>"Run the timetable again with this School data file [attach], but
+Mrs Hansen now teaches 2 fewer lessons."</blockquote>
+
+<h2>What the engine can handle</h2>
+<ul>
+<li>5 school days a week, 1–12 lessons a day, any (equal) lesson length, free
+break times.</li>
+<li>Grades 0–10 split into 1–3 teacher teams. Teachers can work across teams.</li>
+<li>Subjects per class and week, double lessons, daily limits per subject, special
+rooms, fixed teachers for a class, classes taught together (e.g. languages across
+classes), and fixed blocked times for teachers or classes.</li>
+<li>Not supported: whole-day events (camps, trips), wishes and preferences (only
+fixed agreements), and timetables longer than one week.</li>
+</ul>
+
+<h2>Troubleshooting</h2>
+<table>
+<tr><th>What you see</th><th>What to do</th></tr>
+<tr><td>"INVALID" when the data is checked</td><td>The assistant explains what is
+wrong (e.g. a subject with no qualified teacher). Correct the data and check
+again. Checking is free.</td></tr>
+<tr><td>"IMPOSSIBLE"</td><td>Your rules cannot all be met at the same time. The
+assistant explains why and suggests changes. You decide what to change; the
+assistant never changes your rules on its own.</td></tr>
+<tr><td>Limit reached</td><td>The free trial has shared hourly and daily limits.
+Try again later.</td></tr>
+<tr><td>The assistant stops while the timetable is being made</td><td>Write
+"continue" or "check the result". If more than an hour has passed, the result may
+be gone. Start the timetable again.</td></tr>
+<tr><td>The result is gone</td><td>We keep nothing for more than 24 hours. Use the
+"School data" file from the chat to run it again.</td></tr>
+</table>
+
+<h2>Support</h2>
+<p>Questions, errors or security concerns:
+<a href="mailto:timetablingengine.support@gmail.com">timetablingengine.support@gmail.com</a>. Please do not send
+personal data. Describe the problem and, if possible, attach the School data
+file.</p>
+<p>Always check a timetable before you use it. See the
+<a href="terms.html">Terms of Use</a>.</p>
+
+<footer>School Timetable Builder · free trial · run by Theis Wilbek, Denmark</footer>
+</main>
+</body>
+</html>
