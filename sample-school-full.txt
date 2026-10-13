@@ -1,0 +1,137 @@
+Hi, I'm the secretary at Kildebakke School. Our timetabler has retired, so I've been asked to make next year's timetable. I've never done it before. Here is what management gave me, sorry it's messy.
+
+We have grades 0 to 9 with 4 classes in each grade (A, B, C and D). Lessons are 45 minutes.
+
+Bell times, the same every day:
+Lesson 1  8:00-8:45
+break until 9:00
+Lesson 2  9:00-9:45
+break until 10:00
+Lesson 3  10:00-10:45
+Lesson 4  10:45-11:30
+lunch 11:30-12:15
+Lesson 5  12:15-13:00
+break until 13:15
+Lesson 6  13:15-14:00
+Lesson 7  14:00-14:45
+
+Lessons per week, from a spreadsheet:
+
+Subject;0;1;2;3;4;5;6;7;8;9
+Kindergarten class;20;-;-;-;-;-;-;-;-;-
+Danish;-;11;11;8;7;7;7;7;7;7
+English;-;-;1;2;2;4;4;3;3;3
+German/French;-;-;-;-;-;-;2;3;3;3
+Social studies;-;-;-;-;-;-;-;-;2;2
+Religion;-;2;1;1;1;1;2;1;1;-
+History;-;-;-;1;2;2;2;2;2;2
+Maths;-;5;5;5;5;5;5;5;5;5
+Science;-;1;1;2;3;2;2;-;-;-
+Geography;-;-;-;-;-;-;-;2;1;1
+Biology;-;-;-;-;-;-;-;2;1;2
+Physics/chemistry;-;-;-;-;-;-;-;2;2;3
+PE;-;2;2;2;2;2;2;2;2;2
+Music;-;2;2;2;2;2;1;-;-;-
+Art;-;-;2;2;2;1;1;-;-;-
+Crafts and design;-;-;-;2;2;2;2;-;-;-
+Food and nutrition;-;-;-;-;-;2;2;-;-;-
+Creative elective;-;-;-;-;-;-;-;2;2;-
+Local elective;-;-;-;-;-;-;-;2;2;2
+
+German/French is one subject in the timetable (pupils choose one, but they are at the same time). In grades 6-9 it is two classes at a time: A and B together, C and D together.
+
+Grade 0 classes have their kindergarten class teacher all the time, 4 lessons every day starting from lesson 1.
+
+Lessons per day for the classes, according to management:
+grade 0 exactly 4
+grade 1 at least 4, at most 5
+grades 2-4 at least 5, at most 6
+grades 5-9 at least 6, at most 7
+
+PE and food and nutrition are always double lessons. In PE, two classes from the same grade are together (they share the hall), but each class has its own teacher.
+
+Rooms we only have 2 of each: sports hall (2 classes from the same grade per hall), music room, geography room, biology room, physics/chemistry lab, art room, school kitchen (food and nutrition), woodwork room (crafts and design) and science room. Except for the halls, only one class at a time in each room.
+
+The teachers are split into lower, middle and upper school, and they only teach in their own section. All teachers have fixed preparation time at school, which must be in their timetable. Here is the list:
+
+LOWER SCHOOL (grades 0-3)
+name;subjects;max lessons per week;fixed preparation at school (min/week)
+Vitus Winther;Danish, religion, history;26;400
+Villads Vestergaard;Danish, English, art;26;400
+Knud Nyholm;Danish, music, PE;26;400
+Malou Ellegaard;Danish, English, music;21;320
+Ellen Rud;Danish, art, crafts and design;26;400
+Mie Bagger;Danish, religion, PE;26;400
+Bent Wibe;Danish, history, music;21;320
+Kaj Bramming;Danish, science, PE;26;400
+Silas Skaarup;Danish, religion, art;26;400
+Thea Kirk;maths, science, PE;26;400
+Silke Frandsen;maths, science, crafts and design;26;400
+August Nielsen;maths, PE, science;21;320
+Noah Lindegaard;maths, science, art;26;400
+Nadia Reventlow;maths, English, religion;26;400
+Elias Bendtsen;kindergarten class;20;400
+Kirsten Dalgaard;kindergarten class;20;400
+Freja Bagge;kindergarten class;20;400
+Iben Marker;kindergarten class;20;400
+
+MIDDLE SCHOOL (grades 4-6)
+name;subjects;max lessons per week;fixed preparation at school (min/week)
+Poul Oestergaard;Danish, history, religion;26;400
+Laura Ibsen;Danish, English, music;26;400
+Anton Falk;Danish, history, PE;26;400
+Naja Gundersen;Danish, English, art;21;320
+Egon Stampe;Danish, crafts and design, food and nutrition;26;400
+Bertram Toftegaard;Danish, religion, art;26;400
+Otto Bertelsen;Danish, English, history;26;400
+Storm Holten;Danish, crafts and design, PE;21;320
+Anna Hein;maths, science, PE;26;400
+Sarah Lundgren;maths, science, crafts and design;26;400
+Valdemar Kristoffersen;maths, PE, food and nutrition;26;400
+Preben Iversen;maths, science, art;21;320
+Vera Blegvad;maths, crafts and design, PE;26;400
+Viggo Groenbaek;maths, English, science;26;400
+Bjoern Rosenkvist;German, English, history;16;240
+Alfred Overby;French, English, history;16;240
+Susanne Roerdam;Danish, religion, music;21;320
+Agnes Kjeldsen;maths, PE, music;26;400
+
+UPPER SCHOOL (grades 7-9)
+name;subjects;max lessons per week;fixed preparation at school (min/week)
+Carl Rytter;Danish, English, social studies;25;450
+Halfdan Bech;Danish, history, religion;25;450
+Malthe Sand;Danish, social studies, history;25;450
+Ove Blicher;Danish, English, local elective;25;450
+Karla Elkjaer;Danish, history, creative elective;20;360
+Cathrine Wittrup;Danish, English, religion;25;450
+Palle Poulsen;Danish, English, local elective;20;360
+Clara Skou;maths, physics/chemistry, PE;25;450
+Gustav Jensen;maths, geography, biology;24;450
+Aksel Bonde;maths, physics/chemistry, biology;25;450
+Amalie Bille;maths, geography, PE;25;450
+Oscar Krabbe;maths, physics/chemistry, creative elective;20;360
+Erik Soerensen;maths, biology, geography;25;450
+Ida Andersen;maths, physics/chemistry, biology;25;450
+Alberte Ravn;German, English, religion;20;360
+Joern Hjort;German, English, history;25;450
+Sille Juhl;French, English, social studies;15;270
+Liv Sonne;French, local elective, PE;15;270
+Alma Fogh;English, German, local elective;25;450
+Nora Ahlgreen;Danish, creative elective, local elective, PE;20;360
+
+Class teachers must teach their subject in their own class:
+- 1A Vitus Winther (Danish), 1B Malou Ellegaard (Danish), 1C Bent Wibe (Danish), 1D Thea Kirk (maths)
+- 2A Villads Vestergaard (Danish), 2B Ellen Rud (Danish), 2C Kaj Bramming (Danish), 2D Silke Frandsen (maths)
+- 3A Knud Nyholm (Danish), 3B Mie Bagger (Danish), 3C Silas Skaarup (Danish), 3D August Nielsen (maths)
+- 4A Poul Oestergaard (Danish), 4B Naja Gundersen (Danish), 4C Otto Bertelsen (Danish), 4D Sarah Lundgren (maths)
+- 5A Laura Ibsen (Danish), 5B Egon Stampe (Danish), 5C Storm Holten (Danish), 5D Valdemar Kristoffersen (maths)
+- 6A Anton Falk (Danish), 6B Bertram Toftegaard (Danish), 6C Anna Hein (maths), 6D Preben Iversen (maths)
+- 7A Aksel Bonde (maths), 7B Carl Rytter (Danish), 7C Ove Blicher (Danish), 7D Palle Poulsen (Danish)
+- 8A Amalie Bille (maths), 8B Halfdan Bech (Danish), 8C Karla Elkjaer (Danish), 8D Clara Skou (maths)
+- 9A Erik Soerensen (maths), 9B Malthe Sand (Danish), 9C Cathrine Wittrup (Danish), 9D Gustav Jensen (maths)
+
+Two fixed things:
+- Gustav Jensen teaches at another school on Fridays, so he can't teach here on Fridays.
+- Grade 7 has a fixed joint assembly on Tuesdays in lesson 1, so no lessons for grade 7 then.
+
+Can you make the timetable from this? Ask if anything is missing.
