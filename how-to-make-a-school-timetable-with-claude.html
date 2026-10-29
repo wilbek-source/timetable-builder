@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" type="image/png" href="icon-512.png">
+<title>How to make a school timetable with Claude (step by step)</title>
+<meta name="description" content="Step-by-step guide: connect the free School Timetable Builder to Claude and turn messy spreadsheets into a clash-free weekly timetable for every class and teacher. Works on the free Claude plan.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main>
+<nav><a href="index.html">How it works</a><a href="how-to-make-a-school-timetable-with-chatgpt.html">ChatGPT guide</a><a href="how-to-make-a-school-timetable-with-claude.html">Claude guide</a><a href="privacy.html">Privacy</a><a href="terms.html">Terms</a></nav>
+
+<h1>How to make a school timetable with Claude</h1>
+<p class="meta">A step-by-step guide for primary and lower-secondary schools. Connect
+School Timetable Builder to Claude once, drop in the files you already have, and get a
+weekly timetable for every class and every teacher as a colour-coded spreadsheet.</p>
+
+<p class="video"><a href="https://youtu.be/QCTekFEjFBQ"><img src="demo.jpg"
+width="1280" height="720" alt="Video: making a school timetable in Claude, step by step from messy spreadsheets"></a><br>
+This guide follows the <a href="https://youtu.be/QCTekFEjFBQ">3½-minute video</a>:
+a fictional school, five messy files and one real run in Claude.</p>
+
+<h2>What Claude does, and what the engine does</h2>
+<p>Claude is very good at reading untidy files: a staff list with notes in the
+margins, a curriculum spreadsheet with blank cells, an email from the principal. What
+no chatbot can do on its own is check that ten classes, fifteen teachers and a shared
+sports hall fit together without a single clash. School Timetable Builder is a
+connector that gives Claude a real timetabling engine for that part. Claude collects
+and tidies your data, the engine calculates the timetable, and every rule you give is
+kept.</p>
+
+<h2>What you need</h2>
+<ul>
+<li>A Claude account. The free plan is enough.</li>
+<li>The files you already have: staff list, subject hours, bell times, rooms, notes.
+They do not need to be tidy.</li>
+</ul>
+
+<h2>Step 1: Find the connector</h2>
+<p>In Claude, open <a href="https://claude.ai/customize/connectors">Customize →
+Connectors</a> and search for "School Timetable Builder".</p>
+<p class="step wide"><img src="claude-1.jpg" width="960" height="540" loading="lazy"
+alt="Claude's connector directory with a search for School Timetable Builder"></p>
+
+<h2>Step 2: Click "Connect to Claude"</h2>
+<p>Open School Timetable Builder and click <strong>Connect to Claude</strong>. No account,
+login or API key is needed.</p>
+<p class="step wide"><img src="claude-2.jpg" width="960" height="540" loading="lazy"
+alt="The School Timetable Builder page in Claude with the Connect to Claude button"></p>
+<div class="box">
+<strong>Other way to connect:</strong> under Settings → Connectors → Add custom
+connector, paste <code>https://timetable-builder.wilbek.workers.dev/mcp</code>. This
+also works on the free plan, which allows one custom connector.
+</div>
+
+<h2>Step 3: Check it is switched on</h2>
+<p>Start a new chat, click <strong>+</strong> → <strong>Connectors</strong> and make
+sure School Timetable Builder is switched on.</p>
+<p class="step wide"><img src="claude-3.jpg" width="960" height="540" loading="lazy"
+alt="The plus menu in a new Claude chat showing School Timetable Builder switched on"></p>
+
+<h2>Step 4: Drop in your files and say what you want</h2>
+<p>Drag in everything you have and write what you want in your own words and your own
+language, for example "I need next school year's timetable. Everything I have is in
+these files. Can you make it as a colour-coded spreadsheet with one sheet per class
+and one per teacher?"</p>
+<p class="step wide"><img src="claude-4.jpg" width="960" height="540" loading="lazy"
+alt="Five school files attached in Claude with a request for next year's timetable"></p>
+<p>No files of your own yet? Try it with our
+<a href="messy-sample-school.zip">messy sample school</a> (5 files).</p>
+
+<h2>Step 5: Allow the connector</h2>
+<p>The first time, Claude asks before it uses the service. Click
+<strong>Allow</strong> (or Always allow).</p>
+<p class="step wide"><img src="claude-5.jpg" width="960" height="540" loading="lazy"
+alt="Claude asks for permission to use School Timetable Builder"></p>
+
+<h2>Step 6: Answer the few questions Claude cannot work out</h2>
+<p>Claude reads every file and only asks about what is missing or unclear, such as a
+teacher who is unavailable on Friday afternoons. Before anything is sent, every
+teacher's name is replaced with a code (T01, T02, …). The engine never sees a name.</p>
+<p class="step wide"><img src="claude-6.jpg" width="960" height="540" loading="lazy"
+alt="Claude's list of teachers with the codes T01 to T08 used instead of names"></p>
+<p>Claude then checks the data for free. If something cannot work, for example a
+teacher with more lessons than time available, it tells you before the timetable is
+made.</p>
+
+<h2>Step 7: Get the timetable</h2>
+<p>Calculating takes about 5–8 minutes. You get a spreadsheet with one sheet per class
+and one per teacher, with the real names back in, and every rule you gave is kept.</p>
+<p class="step wide"><img src="claude-7.jpg" width="960" height="540" loading="lazy"
+alt="Colour-coded weekly timetable for class 1A"></p>
+<p class="step wide"><img src="claude-8.jpg" width="960" height="540" loading="lazy"
+alt="A teacher's timetable with Friday afternoons kept free, as the principal asked"></p>
+<p>Also download the "School data" file. Attach it in a new chat next time and say what
+has changed. Our service deletes everything within 24 hours, so your downloaded files
+are your only copy.</p>
+
+<h2>Using ChatGPT instead?</h2>
+<p>The app is also in ChatGPT's plugin directory, and it works on the free ChatGPT
+plan. See the <a href="how-to-make-a-school-timetable-with-chatgpt.html">ChatGPT
+guide</a>.</p>
+
+<h2>What the engine can and cannot do</h2>
+<p>It handles 5-day weeks with 1–12 lessons a day, teacher availability, workload and
+part-time, planning time with no gaps, double lessons, daily limits per subject, fixed
+teachers, shared rooms and classes taught at the same time. It does not handle "if
+possible" wishes weighed against each other, whole-day events or student-choice
+courses. <a href="index.html">Full list</a>.</p>
+
+<footer>School Timetable Builder · free during the launch period · run by Theis Wilbek, Denmark</footer>
+</main>
+</body>
+</html>

@@ -5,7 +5,7 @@ School Timetable Builder is a free app for **ChatGPT** and a connector (MCP serv
 ChatGPT or Claude reads your existing files (staff list, subject hours, bell times, rooms, notes), asks only what it cannot work out, and sends the data to a constraint-based timetabling engine. The engine calculates the timetable, usually in 5–8 minutes, and you get it back as a spreadsheet with one sheet per class and one per teacher.
 
 - **Website and full documentation:** https://wilbek-source.github.io/timetable-builder/
-- **Step-by-step guide with screenshots:** [How to make a school timetable with ChatGPT](https://wilbek-source.github.io/timetable-builder/how-to-make-a-school-timetable-with-chatgpt.html)
+- **Step-by-step guides with screenshots:** [How to make a school timetable with ChatGPT](https://wilbek-source.github.io/timetable-builder/how-to-make-a-school-timetable-with-chatgpt.html) · [with Claude](https://wilbek-source.github.io/timetable-builder/how-to-make-a-school-timetable-with-claude.html)
 - **Video (3½ min):** https://youtu.be/QCTekFEjFBQ · **ChatGPT short:** https://youtube.com/shorts/SOAwNf_KD2U
 
 ## How to connect
