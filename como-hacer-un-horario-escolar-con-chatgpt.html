@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" type="image/png" href="icon-512.png">
+<title>Cómo hacer el horario escolar con ChatGPT (paso a paso)</title>
+<meta name="description" content="Guía paso a paso: arma un horario escolar completo y sin topes para cada curso y cada profesor con ChatGPT, usando la app gratuita School Timetable Builder. Funciona con tus planillas y notas de siempre.">
+<link rel="canonical" href="https://wilbek-source.github.io/timetable-builder/como-hacer-un-horario-escolar-con-chatgpt.html">
+<link rel="alternate" hreflang="es" href="https://wilbek-source.github.io/timetable-builder/como-hacer-un-horario-escolar-con-chatgpt.html">
+<link rel="alternate" hreflang="en" href="https://wilbek-source.github.io/timetable-builder/how-to-make-a-school-timetable-with-chatgpt.html">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="School Timetable Builder">
+<meta property="og:locale" content="es_CL">
+<meta property="og:title" content="Cómo hacer el horario escolar con ChatGPT (paso a paso)">
+<meta property="og:description" content="Arma un horario completo y sin topes para cada curso y cada profesor con ChatGPT. Funciona con el plan gratuito.">
+<meta property="og:url" content="https://wilbek-source.github.io/timetable-builder/como-hacer-un-horario-escolar-con-chatgpt.html">
+<meta property="og:image" content="https://wilbek-source.github.io/timetable-builder/demo.jpg">
+<meta property="og:image:width" content="1280">
+<meta property="og:image:height" content="720">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main>
+<nav><a href="como-hacer-un-horario-escolar-con-chatgpt.html">Guía en español</a><a href="index.html">English</a><a href="privacy.html">Privacidad (en inglés)</a><a href="terms.html">Términos (en inglés)</a></nav>
+
+<h1>Cómo hacer el horario escolar con ChatGPT</h1>
+<p class="meta">Una guía paso a paso para colegios de enseñanza básica (y media sin
+electivos). Al final tendrás un horario semanal para cada curso y cada profesor, sin
+topes, en una planilla que puedes descargar. Te toma unos 15 minutos, más 5–8 minutos
+de cálculo.</p>
+
+<h2>Por qué ChatGPT solo no basta</h2>
+<p>Si le pides a ChatGPT (o a cualquier otro chatbot) que "haga un horario escolar",
+lo escribe, pero no lo puede comprobar. Con 10 cursos, 15 profesores, salas
+compartidas y profesores con jornada parcial, el resultado casi siempre trae topes
+escondidos: un profesor en dos salas a la vez, o un curso con menos horas de
+matemática de las que corresponden. Un horario es un rompecabezas que hay que
+calcular, no redactar.</p>
+<p>School Timetable Builder es una app gratuita para ChatGPT y Claude que resuelve
+eso. ChatGPT hace lo que hace bien (leer tus archivos y hacerte preguntas) y nuestro
+motor de horarios hace el cálculo. Cada regla que das es una regla firme: o el
+horario las cumple todas, o recibes una explicación clara de qué no calza.</p>
+
+<h2>Qué necesitas</h2>
+<ul>
+<li>Una cuenta de ChatGPT. La app también funciona con el plan gratuito.</li>
+<li>Lo que ya tengas sobre el próximo año: la lista de profesores y su carga
+horaria, el plan de estudios (horas por asignatura y nivel), los horarios de los
+bloques, las salas y las notas de dirección o UTP. Planillas desordenadas y archivos
+Word sirven perfectamente.</li>
+</ul>
+<p>Las capturas de pantalla de esta guía están en inglés, pero tú puedes escribirle
+a ChatGPT en español: te responde y te entrega el horario en español.</p>
+
+<h2>Paso 1: Agrega la app a ChatGPT</h2>
+<p>En ChatGPT, abre <strong>Plugins</strong> y busca "School Timetable". O entra
+directo a <a href="https://chatgpt.com/plugins/plugin_asdk_app_6ace1e8cd2e88191873b77d3de760c68">School
+Timetable Builder en ChatGPT</a>.</p>
+<p class="step"><a href="howto-1.jpg"><img src="howto-1.jpg" width="480" height="729" loading="lazy"
+alt="La página de Plugins de ChatGPT con la búsqueda School Timetable y la app School Timetable Builder"></a></p>
+
+<h2>Paso 2: Haz clic en Connect</h2>
+<p>Haz clic en <strong>Install plugin</strong> y luego en <strong>Connect</strong>.
+No necesitas crear una cuenta ni iniciar sesión con nosotros.</p>
+<p class="step"><a href="howto-2.jpg"><img src="howto-2.jpg" width="480" height="729" loading="lazy"
+alt="El cuadro Connect School Timetable Builder en ChatGPT"></a></p>
+
+<h2>Paso 3: Sube tus archivos en un chat nuevo</h2>
+<p>Abre un chat nuevo, adjunta tus archivos y escribe algo como "Ayúdame a armar el
+horario del próximo año para nuestro colegio".</p>
+<p class="step"><a href="howto-3.jpg"><img src="howto-3.jpg" width="480" height="729" loading="lazy"
+alt="Un chat nuevo de ChatGPT con cinco archivos del colegio adjuntos"></a></p>
+<p>¿Quieres probar primero sin tus propios datos? Descarga nuestro
+<a href="messy-sample-school.zip">colegio de ejemplo</a> (5 archivos desordenados, en
+inglés) y úsalo.</p>
+
+<h2>Paso 4: Responde las preguntas</h2>
+<p>ChatGPT lee cada archivo, resume lo que encontró y solo pregunta lo que no puede
+deducir, un tema a la vez. Preguntas típicas: ¿Qué profesor hace esta asignatura?
+¿Una celda vacía significa que no se dicta? ¿Hay un profesor que no puede ciertos
+días?</p>
+<p class="step"><a href="howto-4.jpg"><img src="howto-4.jpg" width="480" height="587" loading="lazy"
+alt="ChatGPT pregunta si las celdas vacías del plan de estudios significan que la asignatura no se dicta"></a></p>
+<p>Puedes usar los nombres de los profesores, sus iniciales o los códigos que ya usa
+tu colegio: el resultado es el mismo. Si tu colegio no permite ingresar datos
+personales en herramientas de IA, usa iniciales o códigos. Antes de enviar nada, se
+reemplazan por códigos neutros (T01, T02, …), así que nuestro servicio nunca sabe
+quiénes son tus profesores. Después, ChatGPT revisa tus datos gratis y te avisa si,
+por ejemplo, un profesor tiene más horas de clase que horas disponibles.</p>
+
+<h2>Paso 5: Da la partida y espera 5–8 minutos</h2>
+<p>Cuando los datos están completos, ChatGPT te pregunta si debe empezar. Responde
+que sí. El motor calcula el horario completo, normalmente en 5–8 minutos.</p>
+
+<h2>Paso 6: Descarga tu horario</h2>
+<p>Recibes una planilla con una hoja por curso y una por profesor, con los nombres,
+iniciales o códigos que usaste.</p>
+<p class="step"><a href="howto-5.jpg"><img src="howto-5.jpg" width="480" height="587" loading="lazy"
+alt="Un horario semanal con colores para el curso 1A"></a></p>
+<p class="step"><a href="howto-6.jpg"><img src="howto-6.jpg" width="480" height="587" loading="lazy"
+alt="Un horario semanal para un profesor"></a></p>
+
+<h2>Paso 7: Guarda el archivo "School data"</h2>
+<p>También recibes un archivo "School data" con todo lo que se usó. Guárdalo. La
+próxima vez, o cuando algo cambie, adjúntalo en un chat nuevo y di qué es distinto,
+por ejemplo "la profesora Soto ahora tiene 2 horas menos".</p>
+<p class="step"><a href="howto-7.jpg"><img src="howto-7.jpg" width="480" height="587" loading="lazy"
+alt="ChatGPT entrega la planilla del horario y el archivo School data para descargar"></a></p>
+<p>Descarga los dos archivos de inmediato. Nuestro servicio no guarda nada por más de
+24 horas.</p>
+
+<h2>Míralo completo</h2>
+<p>El <a href="https://youtube.com/shorts/SOAwNf_KD2U">video de 45 segundos en ChatGPT</a>
+muestra todos los pasos (con subtítulos en español). El
+<a href="https://youtu.be/QCTekFEjFBQ">video de 3½ minutos</a> los muestra en detalle
+(grabado en Claude).</p>
+
+<h2>¿Usas Claude?</h2>
+<p>Funciona igual. En Claude, abre
+<a href="https://claude.ai/customize/connectors">Customize → Connectors</a>, busca
+"School Timetable Builder" y haz clic en Connect. Hay una
+<a href="how-to-make-a-school-timetable-with-claude.html">guía para Claude en inglés</a>.</p>
+
+<h2>Lo que el motor puede y no puede hacer</h2>
+<p>Maneja semanas de 5 días con 1–12 bloques diarios, disponibilidad de profesores
+(por ejemplo "no después del bloque 4 los viernes"), carga horaria y jornada parcial,
+horas no lectivas sin ventanas, bloques dobles, máximo de horas diarias por
+asignatura, profesores fijos, salas compartidas y cursos que tienen clase al mismo
+tiempo. No maneja preferencias del tipo "si es posible" que se comparan entre sí,
+actividades de día completo ni electivos que elige cada estudiante.
+<a href="index.html">Lista completa (en inglés)</a>.</p>
+
+<footer>School Timetable Builder · gratis durante el período de lanzamiento · a cargo de Theis Wilbek, Dinamarca</footer>
+</main>
+</body>
+</html>
