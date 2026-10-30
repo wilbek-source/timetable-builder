@@ -33,6 +33,6 @@ Not supported: soft "if possible" preferences weighed against each other, whole-
 
 ## Privacy
 
-Teacher names are replaced with codes (T01, T02, …) in the chat before anything is sent, so the service never receives names of teachers, pupils or the school. Data is deleted within 24 hours. See the [Privacy Policy](https://wilbek-source.github.io/timetable-builder/privacy.html) and [Terms of Use](https://wilbek-source.github.io/timetable-builder/terms.html).
+Teachers can be given by name, initials or the school's own staff codes. They are replaced with codes (T01, T02, …) in the chat before anything is sent, so the service never receives names of teachers, pupils or the school. Data is deleted within 24 hours. See the [Privacy Policy](https://wilbek-source.github.io/timetable-builder/privacy.html) and [Terms of Use](https://wilbek-source.github.io/timetable-builder/terms.html).
 
 This repository holds the public website only. Support: timetablingengine.support@gmail.com
