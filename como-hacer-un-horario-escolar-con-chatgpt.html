@@ -31,6 +31,11 @@ electivos). Al final tendrás un horario semanal para cada curso y cada profesor
 topes, en una planilla que puedes descargar. Te toma unos 15 minutos, más 5–8 minutos
 de cálculo.</p>
 
+<div class="box first">
+<p><strong>Gratis. Mejor en el computador</strong> – ahí están los archivos de tu colegio. ¿Lo estás leyendo en el celular? Envíate esta página y pruébalo cuando estés en tu escritorio.</p>
+<p><a class="button share" data-url="https://wilbek-source.github.io/timetable-builder/como-hacer-un-horario-escolar-con-chatgpt.html" href="mailto:?subject=Gu%C3%ADa%20para%20el%20horario%20escolar&amp;body=https%3A//wilbek-source.github.io/timetable-builder/como-hacer-un-horario-escolar-con-chatgpt.html">Enviarme esta página</a></p>
+</div>
+
 <h2>Por qué ChatGPT solo no basta</h2>
 <p>Si le pides a ChatGPT (o a cualquier otro chatbot) que "haga un horario escolar",
 lo escribe, pero no lo puede comprobar. Con 10 cursos, 15 profesores, salas
@@ -145,5 +150,14 @@ actividades de día completo ni electivos que elige cada estudiante.
 
 <footer>School Timetable Builder · gratis durante el período de lanzamiento · a cargo de Theis Wilbek, Dinamarca</footer>
 </main>
+<script>
+document.querySelectorAll('a.share').forEach(function (a) {
+  if (!navigator.share) return;
+  a.addEventListener('click', function (e) {
+    e.preventDefault();
+    navigator.share({ title: document.title, url: a.dataset.url }).catch(function () {});
+  });
+});
+</script>
 </body>
 </html>

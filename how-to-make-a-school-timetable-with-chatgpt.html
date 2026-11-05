@@ -30,6 +30,11 @@ end up with a weekly timetable for every class and every teacher, with no clashe
 as a spreadsheet you can download. It takes about 15 minutes of your time plus
 5–8 minutes of calculation.</p>
 
+<div class="box first">
+<p><strong>Free. Best done on a computer</strong> – that is where your school files are. Reading this on your phone? Send this page to yourself and try it when you are at your desk.</p>
+<p><a class="button share" data-url="https://wilbek-source.github.io/timetable-builder/how-to-make-a-school-timetable-with-chatgpt.html" href="mailto:?subject=School%20timetable%20guide&amp;body=https%3A//wilbek-source.github.io/timetable-builder/how-to-make-a-school-timetable-with-chatgpt.html">Send this page to myself</a></p>
+</div>
+
 <h2>Why ChatGPT alone is not enough</h2>
 <p>If you simply ask ChatGPT (or any other AI chatbot) to "make a school timetable",
 it will write one, but it cannot check it. With 10 classes, 15 teachers, shared
@@ -138,5 +143,14 @@ each other, whole-day events or student-choice courses.
 
 <footer>School Timetable Builder · free during the launch period · run by Theis Wilbek, Denmark</footer>
 </main>
+<script>
+document.querySelectorAll('a.share').forEach(function (a) {
+  if (!navigator.share) return;
+  a.addEventListener('click', function (e) {
+    e.preventDefault();
+    navigator.share({ title: document.title, url: a.dataset.url }).catch(function () {});
+  });
+});
+</script>
 </body>
 </html>
