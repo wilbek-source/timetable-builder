@@ -22,11 +22,13 @@ No account, login or API key is needed. Also listed in the official MCP Registry
 
 ## What it handles
 
-- 5-day weeks, 1–12 lessons a day, free break times
+- 5- or 6-day weeks (Saturday can be shorter), 1–12 lessons a day, free break times
 - Teacher availability (e.g. "not after lesson 4 on Fridays", "teaches at another school on Mondays")
 - Teacher workload and part-time, planning time placed with no empty gaps
-- Lessons per subject and week, double lessons, min/max lessons per day, fixed teachers
-- Shared special rooms, classes taught at the same time (e.g. language groups)
+- Lessons per subject and week, double lessons, fixed teachers
+- A daily limit per subject (e.g. English once a day), and the fewest and most lessons a class has each day
+- Shared special rooms, classes taught at the same time
+- Groups inside a class, each with its own teacher (e.g. CRE and IRE, language groups), and a second teacher in some lessons
 - Every rule is a firm rule: you get a timetable that meets all of them, or a plain explanation of what clashes
 
 Not supported: soft "if possible" preferences weighed against each other, whole-day events, student-choice course timetables.
