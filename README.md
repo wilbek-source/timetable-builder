@@ -20,6 +20,8 @@ https://timetable-builder.wilbek.workers.dev/mcp
 
 No account, login or API key is needed. Also listed in the official MCP Registry as `io.github.wilbek-source/timetable-builder`.
 
+[![School Timetable Builder MCP connector](https://glama.ai/mcp/connectors/io.github.wilbek-source/timetable-builder/badges/score.svg)](https://glama.ai/mcp/connectors/io.github.wilbek-source/timetable-builder)
+
 ## What it handles
 
 - 5- or 6-day weeks (Saturday can be shorter), 1–12 lessons a day, free break times
